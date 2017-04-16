@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choosing_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    android:background="@android:color/white"
+    tools:context="com.example.thomas.cskickitappv2.choosingEvent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:text="Current Location"
+            android:layout_width="match_parent"
+            android:id="@+id/tvCurrentLocation"
+            android:layout_height="75dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCustom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                android:text="I'll tell you exactly\n where to go"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnGiveLocation"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"
+                android:text="I'll give you a zip, city or a state!"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:text="\nBack to the Plan\n"
+
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnGetLocation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                android:text="Get My Location and Go!"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
