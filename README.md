@@ -4,9 +4,12 @@
 
 Thomas Abrahams (Back-end, Front-end, SQL Lite, Firebase, Activities / Java code etc.)
 
-Later to be added QR by Phillip Ly
+Never Added:
+*QR by Phillip Ly 
+*Documentation lead Phillip Ly (Never done)
 
-Later Documentation lead Phillip Ly, with Susmitha and Vivek
+
+Later Documentation with Susmitha and Vivek
 
 Later Sound effects by Vivek
 
